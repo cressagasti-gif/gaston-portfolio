@@ -233,9 +233,10 @@ h2 {
 h2 .hash { color: var(--red); font-family: var(--mono); margin-right: 6px; }
 h3 { margin: 0 0 8px; font-size: 17px; }
 h3.sub { margin: 40px 0 18px; font-size: 18px; color: var(--red-soft); }
-h4 { margin: 0 0 6px; font-size: 15px; font-family: var(--mono); color: var(--red-hi); }
+h4 { margin: 0 0 8px; font-size: 15px; font-family: var(--mono); color: var(--red-hi); line-height: 1.35; }
 h4 a { color: var(--red-hi); text-decoration: none; transition: color .18s; }
-h4 a::after { content: " ↗"; font-size: 12px; opacity: .45; }
+h4 a::after { content: "↗"; font-size: 12px; opacity: .45; margin-left: 2px; }
+h4 a { word-break: break-word; }
 h4 a:hover { color: var(--red); }
 
 .caption {
